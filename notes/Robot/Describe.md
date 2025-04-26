@@ -1,0 +1,3 @@
+- Images.
+- Sounds.
+- Proximity?
