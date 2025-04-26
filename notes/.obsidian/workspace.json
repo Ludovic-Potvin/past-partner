@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/Core/PubSub.md",
+                "file": "Working notes/diagramme - 25-04-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PubSub"
+              "title": "diagramme - 25-04-2025"
             }
           },
           {
@@ -200,9 +200,9 @@
   },
   "active": "1fd49c0c554e096d",
   "lastOpenFiles": [
+    "Modules/Core/PubSub.md",
     "Modules/Core",
     "Robot/What can he do.md",
-    "Modules/Core/PubSub.md",
     "Component",
     "Modules",
     "Robot/Requirement.md",
@@ -218,7 +218,6 @@
     "Working notes",
     "Brain Function.md",
     "Robot",
-    "diagram.excalidraw.crswap",
-    "diagram.excalidraw"
+    "diagram.excalidraw.crswap"
   ]
 }
