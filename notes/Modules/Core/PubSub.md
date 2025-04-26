@@ -4,4 +4,6 @@ Straight copy and past from https://github.com/makerforgetech/modular-biped/wiki
 
 Only module with coupling, pubsub task is to create a observer base pattern in the application.
 
-Module will publish and subscribe to event to act accordingly. This allow the robot to
+Module will publish and subscribe to event to act accordingly. This allow the robot modules to emit event and react to event according to the config we give them. Giving us full control on where they also connect.
+
+Ideally, pubsub would act 
