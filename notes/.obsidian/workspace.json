@@ -213,27 +213,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75ab5f9fd0a37d3c",
+  "active": "7a333eab05386a4d",
   "lastOpenFiles": [
+    "2025-05-07.md",
+    "TODO NOTE.md",
+    "2025-05-02.md",
     "2025-05-01.md",
-    "2025-04-25.md",
+    "img",
+    "img/Pasted image 20250507194849.jpg",
     "Modules/Core/PubSub.md",
-    "Modules/Core",
+    "Robot/Describe.md",
+    "Robot/Move.md",
+    "Robot/Remember.md",
+    "Robot/Requirement.md",
+    "Robot/Talk.md",
     "Robot/What can he do.md",
+    "2025-04-25.md",
+    "Modules/Core",
     "Component",
     "Modules",
-    "Robot/Requirement.md",
-    "Robot/Remember.md",
-    "Robot/Talk.md",
-    "Robot/Move.md",
-    "Robot/Describe.md",
     "Robot/Describe",
     "Robot/Move",
     "Robot/Remember",
     "Robot/Talk",
     "Working notes",
     "Brain Function.md",
-    "Robot",
-    "diagram.excalidraw.crswap"
+    "Robot"
   ]
 }
