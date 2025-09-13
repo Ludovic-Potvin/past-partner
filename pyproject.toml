@@ -8,12 +8,15 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "openai-whisper (>=20250625,<20250626)"
+    "openai-whisper (>=20250625,<20250626)",
+    "black (>=25.1.0,<26.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "pastpartner", from = "src"}]
 
+[tool.poetry.scripts]
+pastpartner = "pastpartner.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
