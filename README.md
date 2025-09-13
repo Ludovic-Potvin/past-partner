@@ -1,3 +1,0 @@
-# past-partner
-
-hello world
