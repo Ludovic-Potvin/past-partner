@@ -1,4 +1,0 @@
-- Text to speech.
-- Speech to text.
-- Send request to chatGPT.
-- Remember people face, past conversations.

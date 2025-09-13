@@ -1,3 +1,0 @@
-- Avoid obstacle.
-- Chose spot where it sees the room.
-- Chose to go somewhere (hard?)
