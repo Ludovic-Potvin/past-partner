@@ -1,12 +1,17 @@
-import wave
-from importlib.resources import files
+import sounddevice as sd
 
 from piper import PiperVoice
 
+
 def main() -> None:
-    file = 'fr_FR-mls-medium.onnx'
-    model = files().joinpath(voice_file)
+    # Setup piper
+    model = "./static/voices/fr_FR-mls-medium.onnx"
+    voice = PiperVoice.load(model)
 
+    # Text to do
+    text = "Hello from pastpartner!"
 
-    voice = PiperVoice.load(voice_model)
-    print("Hello from pastpartner!")
+    # Execution
+    audio = voice.synthesize(text)
+
+    sd.play(audio, voice.config.sample_rate)
