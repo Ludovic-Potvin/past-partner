@@ -1,5 +1,9 @@
-from pastpartner.modules.voice import speak
+from pastpartner.modules.speak import speak
+from pastpartner.modules.listen import listen
 
 
 def main() -> None:
-    speak("Un arc-en-ciel vole au dessus des nuages")
+    result = listen()
+    print(result)
+
+    speak(result)
