@@ -1,9 +1,23 @@
+import os
 from pastpartner.modules.speak import speak
 from pastpartner.modules.listen import listen
+from pastpartner.modules.think import think
+from dotenv import load_dotenv, find_dotenv
 
 
 def main() -> None:
-    result = listen()
-    print(result)
+    # Loading env
+    BASEDIR = os.path.abspath(os.path.dirname("pastpartner"))
+    load_dotenv(os.path.join(BASEDIR, ".env"))
 
-    speak(result)
+    # Listen
+    while True:
+        result = listen()
+
+        # ChatGPT
+        test = think(result)
+        print(test)
+
+        # Speak
+        if test:
+            speak(test)
