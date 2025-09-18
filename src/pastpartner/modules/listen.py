@@ -3,7 +3,7 @@ import pyaudio
 import json
 
 MODEL_PATH = "/home/lpotvin/projects/pastpartner/src/pastpartner/static/vosk-model-small-fr-0.22/"
-INPUT_DEVICE_INDEX = 3
+INPUT_DEVICE_INDEX = 2
 
 
 def listen() -> str:
